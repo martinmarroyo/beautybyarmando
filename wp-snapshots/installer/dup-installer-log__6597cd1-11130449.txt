@@ -1,0 +1,688 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 02:06:22
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.33                                |7.4.2
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2020-04-11 13:04:49
+WP VERSION__________: 5.4
+DUP VERSION_________: 1.3.28
+DB__________________: 5.6.41
+DB TABLES___________: 37
+DB ROWS_____________: 3,292
+DB FILE SIZE________: 4.25MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+DOC ROOT____________: "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200411_beautybyarmando_6597cd1a314887cb3306_20200411130449_archive.zip"
+SIZE________________: 647.53MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq '/Volumes/Data/Client Sites - Local/Beauty by Armando/20200411_beautybyarmando_6597cd1a314887cb3306_20200411130449_archive.zip' -d '/Volumes/Data/Client Sites - Local/Beauty by Armando' 2>&1
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 02:06:59 - RUNTIME: 36.8325 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:07:20
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__6597cd1-11130449.sql (2.53MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Volumes/Data/Client Sites - Local/Beauty by Armando/dup-installer/dup-installer-data__6597cd1-11130449.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	37
+RENAMED TABLES:	0
+QUERIES RAN:	338
+
+_LMV_actionscheduler_actions: (34)
+_LMV_actionscheduler_claims: (0)
+_LMV_actionscheduler_groups: (2)
+_LMV_actionscheduler_logs: (100)
+_LMV_commentmeta: (0)
+_LMV_comments: (1)
+_LMV_duplicator_packages: (0)
+_LMV_links: (0)
+_LMV_mgmlp_folders: (55)
+_LMV_options: (199)
+_LMV_postmeta: (1119)
+_LMV_posts: (142)
+_LMV_term_relationships: (15)
+_LMV_term_taxonomy: (14)
+_LMV_termmeta: (0)
+_LMV_terms: (14)
+_LMV_usermeta: (56)
+_LMV_users: (2)
+_LMV_wpforms_tasks_meta: (3)
+staging__LMV_actionscheduler_actions: (32)
+staging__LMV_actionscheduler_claims: (0)
+staging__LMV_actionscheduler_groups: (2)
+staging__LMV_actionscheduler_logs: (94)
+staging__LMV_commentmeta: (0)
+staging__LMV_comments: (1)
+staging__LMV_links: (0)
+staging__LMV_mgmlp_folders: (41)
+staging__LMV_options: (220)
+staging__LMV_postmeta: (883)
+staging__LMV_posts: (110)
+staging__LMV_term_relationships: (7)
+staging__LMV_term_taxonomy: (14)
+staging__LMV_termmeta: (0)
+staging__LMV_terms: (14)
+staging__LMV_usermeta: (56)
+staging__LMV_users: (2)
+staging__LMV_wpforms_tasks_meta: (1)
+Removed '61' cache/transient rows
+
+INSERT DATA RUNTIME: 1.2023 sec.
+STEP-2 COMPLETE @ 02:07:22 - RUNTIME: 1.2271 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:07:27
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Beauty by Armando"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home3/eautycc4/public_html"
+path_new______________: "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+siteurl_______________: "http://localhost:8888"
+url_old_______________: "http://box5143.temp.domains/~eautycc4"
+url_new_______________: "http://localhost:8888"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "beautybyarmando"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "_LMV_actionscheduler_actions"____________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_LMV_actionscheduler_groups"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_actionscheduler_logs"_______________________[ROWS:   100][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_LMV_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_LMV_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_LMV_mgmlp_folders"______________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_options"____________________________________[ROWS:   199][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_postmeta"___________________________________[ROWS:  1119][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_posts"______________________________________[ROWS:   142][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_term_relationships"_________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_term_taxonomy"______________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_LMV_terms"______________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_usermeta"___________________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_users"______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "_LMV_wpforms_tasks_meta"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_actionscheduler_actions"____________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_actionscheduler_claims"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "staging__LMV_actionscheduler_groups"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_actionscheduler_logs"_______________[ROWS:    94][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_commentmeta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "staging__LMV_comments"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "staging__LMV_mgmlp_folders"______________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_options"____________________________[ROWS:   220][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_postmeta"___________________________[ROWS:   883][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_posts"______________________________[ROWS:   110][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_term_relationships"_________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_term_taxonomy"______________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_termmeta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "staging__LMV_terms"______________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_usermeta"___________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_users"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+
+EVALUATE TABLE: "staging__LMV_wpforms_tasks_meta"_________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home3/eautycc4/public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  2:"\/home3\/eautycc4\/public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  3:"%2Fhome3%2Feautycc4%2Fpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  4:"\home3\eautycc4\public_html" =====================> "/Volumes/Data/Client Sites - Local/Beauty by Armando"
+	SEARCH  5:"\\home3\\eautycc4\\public_html" ==================> "\/Volumes\/Data\/Client Sites - Local\/Beauty by Armando"
+	SEARCH  6:"%5Chome3%5Ceautycc4%5Cpublic_html" ===============> "%2FVolumes%2FData%2FClient+Sites+-+Local%2FBeauty+by+Armando"
+	SEARCH  7:"//box5143.temp.domains/~eautycc4" ================> "//localhost:8888"
+	SEARCH  8:"\/\/box5143.temp.domains\/~eautycc4" =============> "\/\/localhost:8888"
+	SEARCH  9:"%2F%2Fbox5143.temp.domains%2F%7Eeautycc4" ========> "%2F%2Flocalhost%3A8888"
+	SEARCH 10:"https://localhost:8888" ==========================> "http://localhost:8888"
+	SEARCH 11:"https:\/\/localhost:8888" ========================> "http:\/\/localhost:8888"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888" ==================> "http%3A%2F%2Flocalhost%3A8888"
+--------------------------------------
+SCANNED:	Tables:37 	|	 Rows:3233 	|	 Cells:18388 
+UPDATED:	Tables:9 	|	 Rows:265 	|	 Cells:284 
+ERRORS:		0 
+RUNTIME:	0.371200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""beautybyarmando""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__6597cd1-11130449' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:07:27 - RUNTIME: 0.4799 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
