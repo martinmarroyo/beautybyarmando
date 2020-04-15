@@ -21,11 +21,14 @@ if( ! $sidebar ){
 ?>
 
 
-
-
 <div class="landing_bg">
-  <h1 class="brand_name">Beauty by Armando</h1>
+  <div class="brand_name">
+    <h1>Beauty by Armando</h1>
+  </div>
 </div>
+
+
+
 
 
 

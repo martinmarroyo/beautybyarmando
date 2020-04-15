@@ -8,6 +8,19 @@
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         
+ Tags:
  Text Domain:
 */
+
+/* Background for landing page*/
+.landing_bg{
+  /* The image used*/
+  background-image: url("http://localhost:8888/wp-content/uploads/2020/03/beautybyarmando_landingimage.jpg");
+  // Full height
+  height: 100%;
+
+  /*Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
