@@ -5,22 +5,42 @@
  Author:       Martin Arroyo
  Author URI:
  Template:     elemento
- Version:      1.0.0
+ Version:      1.0.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:
  Text Domain:
 */
 
-/* Background for landing page*/
+/************************ LANDING PAGE **************************************/
+/* Background image */
 .landing_bg{
   /* The image used*/
   background-image: url("http://localhost:8888/wp-content/uploads/2020/03/beautybyarmando_landingimage.jpg");
-  // Full height
+  /* Full height */
   height: 100%;
-
+  opacity: .95;
   /*Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+/* Beauty by Armando brand name */
+.brand_name {
+  float: right;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin-right: .50em;
+  margin-bottom: 1.0em;
+}
+
+.brand_name h1 {
+  color: white;
+  padding: .50em;
+}
+
+footer {
+  opacity:0.25;
 }

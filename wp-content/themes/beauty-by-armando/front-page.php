@@ -1,3 +1,4 @@
+
 <body>
 <?php
 /**
@@ -9,28 +10,15 @@
  */
 
 get_header();
-
-
-if( ! $sidebar ){
-  $row =  'aGrid';
-}else if($sidebar=='left'){
-  $row = 'col_2-30-70';
-}else{
-  $row = 'col_2-70-30';
-}
 ?>
 
-
+<!-- Front page image -->
 <div class="landing_bg">
+
   <div class="brand_name">
-    <h1>Beauty by Armando</h1>
+    <h1><span><strong>Beauty by</strong></span> <em>Armando</em></h1>
   </div>
 </div>
-
-
-
-
-
 
 <?php
 
