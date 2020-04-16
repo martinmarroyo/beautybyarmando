@@ -46,7 +46,7 @@
 					<div class="sms_icon">
 						<?xml version="1.0" encoding="utf-8"?>
 						<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-					
+
 					</div>
 					<!-- Phone Call CTA -->
 					<div class="sms_cta_text">

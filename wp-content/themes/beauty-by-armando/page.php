@@ -41,16 +41,18 @@ if( ! $sidebar ){
          <?php if( $sidebar == 'left' ):  get_sidebar();  endif; ?>
       <div class="cols">
         <?php
+
         while ( have_posts() ) : the_post();
 
         get_template_part( 'template-parts/content', 'page' );
 
-        // If comments are open or we have at least one comment, load up the comment template.
-        if ( comments_open() || get_comments_number() ) :
-          comments_template();
-        endif;
+        /* Bring in Phone/SMS Call to Action Section if we are on contact page */
+        if (is_page('get-in-touch')){
+          get_template_part('template-parts/phone-cta');
+        }
 
       endwhile; // End of the loop.
+
 ?>
 
 </div>
