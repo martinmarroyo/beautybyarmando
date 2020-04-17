@@ -12,6 +12,9 @@
  Text Domain:
 */
 
+
+
+
 /************************ LANDING PAGE **************************************/
 /* Background image */
 .landing_bg{
@@ -52,26 +55,36 @@
   float: right;
 }
 
-/*** Menu styling for homepage only ***/
+/*** Menu Styling ***/
 
 /* Styling of Active Indicator and hover over menu item */
-#menu ul li:hover,
+nav ul li:hover,
 		nav ul li.active-page,
 		nav ul > li.current-menu-item {
 			background-color: rgba(255,255,255,0.25) !important;
 		}
 
 /** Sub-menu background color (My Work subpages)**/
-#menu.menu-main ul li .sub-menu{
+nav.menu-main ul li .sub-menu{
   background-color: rgba(255,255,255,0.25) !important;
 }
 /* Sub menu text */
-#menu.menu-main ul li .sub-menu>li>a{
+nav.menu-main ul li .sub-menu>li>a{
   color:#fff !important;
   text-align: center !important;
 }
 
-/*** Removes redundant display of feature image in portfolio ***/
+#menu-pages{
+  float: right;
+}
+
+/*** Header Styling ***/
+#siteHeader {
+    background-color: #0a0a0a;
+}
+
+/************************ PORTFOLIO PAGE **************************************/
+/** Removes redundant display of feature image in portfolio **/
 .post-details .image-holder {
   height: 0px;
   /* width: 0%; */
@@ -83,4 +96,28 @@
   /* width: 100%; */
   /* object-fit: cover; */
   display: none;
+}
+/** Remove 'Comments' text from portfolio page **/
+.article-wrap .comments {
+  display: none;
+}
+/* Remove 'Comments' from mobile portfolio page */
+.svg-inline--fa {
+    display: none;
+}
+
+
+/************************ PAGES (OTHER THAN HOME) **************************************/
+
+/** Change our background color for the site black **/
+/* Outer part of site*/
+section{
+  background-color: black;
+}
+/* Inner Page */
+.container-large{
+  background-color: black;
+}
+.page-content{
+  padding-top: 0px !important;
 }

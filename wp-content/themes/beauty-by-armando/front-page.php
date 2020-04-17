@@ -15,7 +15,7 @@
 <?php get_template_part( 'template-parts/header', 'frontpage' ); ?>
 <!-- Front page image -->
   <div class="landing_bg">
-    <div id="menu" class="col-md-9 text-align-right">
+    <div id="menu" class="frontpage-menu">
     <?php
 
     ?>

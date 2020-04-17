@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-9 text-align-right">
+        <div id="menu-pages" class="col-md-9 text-align-right">
         <?php
 
         ?>

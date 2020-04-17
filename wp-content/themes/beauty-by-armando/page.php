@@ -13,7 +13,7 @@
  */
 
 get_header();
-
+/*
 $sidebar = elemento_page_sidebar_pos();
 if ( class_exists( 'WooCommerce' ) ) {
   if( is_woocommerce() ){
@@ -28,42 +28,36 @@ if( ! $sidebar ){
 }else{
   $row = 'col_2-70-30';
 }
+*/
 ?>
- <?php get_template_part('template-parts/banner');?>
 
 
- <section class="jr-site-para-highlight inner-page">
-
-
+<div class="page-content">
+    <section class="jr-site-para-highlight inner-page">
 
       <div class="<?php echo elemento_site_container();?> content-all">
-      <div class="<?php echo esc_attr($row);?>">
-         <?php if( $sidebar == 'left' ):  get_sidebar();  endif; ?>
-      <div class="cols">
-        <?php
+        <div class="<?php echo esc_attr($row);?>">
+          <?php /*if( $sidebar == 'left' ):  get_sidebar();  endif; */?>
+          <div class="cols">
+            <?php
 
-        while ( have_posts() ) : the_post();
+              while ( have_posts() ) : the_post();
 
-        get_template_part( 'template-parts/content', 'page' );
+              get_template_part( 'template-parts/content', 'page' );
 
-        /* Bring in Phone/SMS Call to Action Section if we are on contact page */
-        if (is_page('get-in-touch')){
-          get_template_part('template-parts/phone-cta');
-        }
+              /* Bring in Phone/SMS Call to Action Section if we are on contact page */
+              if (is_page('get-in-touch')){
+                get_template_part('template-parts/phone-cta');
+              }
 
-      endwhile; // End of the loop.
+              endwhile; // End of the loop.
 
-?>
-
+            ?>
+          </div>
+      </div>
+    </div>
+  </section>
 </div>
-<?php if( $sidebar == 'right' ):  get_sidebar();  endif; ?>
-</div>
-
-</div>
-
-
-</section>
-
 
 <?php
 
