@@ -16,6 +16,7 @@
  *
  * @uses elemento_header_style()
  */
+ 
 function elemento_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'elemento_custom_header_args', array(
 		'default-image'          => get_template_directory_uri().'/assets/images/slider1.jpg',

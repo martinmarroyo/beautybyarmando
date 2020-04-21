@@ -32,7 +32,6 @@
 
     <!--Header Component-->
     <header id="siteHeader" class="jr-site-header pd-a-15 <?php  elemento_header_class(); ?>">
-
         <div class="<?php echo elemento_site_container();?>">
             <div class="row align-flex-item-center full-width">
                 <div class="col-md-3">
@@ -42,35 +41,33 @@
                         if( display_header_text() ):
                         ?>
                             <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-                        <?php 
+                        <?php
                             $description = get_bloginfo( 'description', 'display' );
                             if ( $description || is_customize_preview() ) : ?>
                                 <p class="site-description"><?php echo esc_html($description); ?></p>
                             <?php
-                            endif; 
-                        endif; 
+                            endif;
+                        endif;
                         ?>
                     </div>
                 </div>
-                <div class="col-md-9 text-align-right">
-                <?php 
-
-                ?>
-                    <nav class="menu-main">
-                    <?php 
-                                wp_nav_menu( array(
-                                    'theme_location' => 'primary-menu',
-                                    'menu_id'        => 'primary-menu',
-                                    'menu_class'     => 'floted-li clearfix d-i-b',
-                                     'walker'        => '',
-                                    'fallback_cb'    => 'wp_page_menu',
-                                ) );
-
-                    ?>
-                    </nav>
-                </div>
             </div>
         </div>
-    </header>
+        <div class="col-md-9 text-align-right">
+        <?php
 
-	
+        ?>
+            <nav class="menu-main">
+            <?php
+                        wp_nav_menu( array(
+                            'theme_location' => 'primary-menu',
+                            'menu_id'        => 'primary-menu',
+                            'menu_class'     => 'floted-li clearfix d-i-b',
+                             'walker'        => '',
+                            'fallback_cb'    => 'wp_page_menu',
+                        ) );
+
+            ?>
+            </nav>
+        </div>
+    </header>
