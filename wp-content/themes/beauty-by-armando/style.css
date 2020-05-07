@@ -13,15 +13,21 @@
 */
 
 /************************ LANDING PAGE **************************************/
+html, body {
+  height: 100%;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
 /* Background image */
 .landing_bg{
   /* The image used --- Gradient used to darken background image to make text and menu pop */
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0.25)
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.115)
     ),url("/wp-content/uploads/2020/03/beautybyarmando_landingimage.jpg");
   /* Full height */
-  height: 95%;
+  height: 100%;
   opacity: .95;
   /*Center and scale the image nicely */
   background-position: center center;
@@ -43,9 +49,8 @@
   color: white;
   padding: .50em;
 }
-
-#frontPageHeader{
-  opacity: .25;
+.front-page-container{
+  height: 100%;
 }
 
 #menu{
@@ -72,13 +77,12 @@ nav.menu-main ul li .sub-menu>li>a{
 }
 
 #menu-pages{
-  float: right;
+  right: -15%;
+}
+#menu-home{
+  right:-25%;
 }
 
-/*** Header Styling ***/
-#siteHeader {
-    background-color: #0a0a0a;
-}
 
 /************************ PORTFOLIO PAGE **************************************/
 /** Removes redundant display of feature image in portfolio **/
@@ -104,8 +108,13 @@ nav.menu-main ul li .sub-menu>li>a{
 }
 
 
-/************************ PAGES (OTHER THAN HOME) **************************************/
+/*========================== PAGES (OTHER THAN HOME) ======================== */
 
+/*** Header Styling ***/
+#siteHeader {
+  background-color: #00000073 !important;
+  margin: 0;
+}
 /** Change our background color for the site black **/
 /* Outer part of site*/
 section{
@@ -114,9 +123,91 @@ section{
 /* Inner Page */
 .container-large{
   background-color: black;
+  color: white;
+
 }
 .page-content{
-  padding-top: 0px !important;
   background-color: black;
-  min-height: 75em;
+
+}
+.body-wrapp {
+  height: 100%;
+  background-color:black;
+}
+
+/* Site Title */
+p.site-title {
+  color:white;
+  clip: unset;
+}
+.site-title a {
+  color: white;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block;
+    margin: 1em 2em 0 2em;
+}
+#footer{
+  margin:0;
+}
+/*========================== ======================= ======================== */
+
+/*===================== RESPONSIVE ========================================== */
+
+/*Responsive Styles*/
+
+/*Targeted Device max-width 1200*/
+
+
+@media all and (min-width: 1170px) {
+
+
+}
+
+/*Targeted Device max-width 1200===========================================================*/
+
+@media all and (max-width: 1200px){
+
+}
+
+
+/*Targeted Device max-width 1020 ===========================================================*/
+
+@media all and (max-width: 1020px){
+    .mobile-menu {
+      top: 1.25em !important;
+    }
+  article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+      display: block;
+      margin: .15em .25em 0 .25em;
+  }
+  #siteHeader {
+    background-color: #000000b3 !important;
+    margin: 0;
+    height: 9%;
+  }
+  nav.menu-main {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: calc(100vh - 20px);
+    height: -webkit-calc(100vh - 20px);
+    overflow-y: auto;
+    top: auto !important;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.94);
+    padding: 20px 10px;
+    margin: 0;
+  }
+}
+
+
+/*Targeted Device max-width 767============================================================*/
+
+@media  (max-width: 767px){
+  .logo-holder{
+    padding-left:10px !important;
+  }
+
 }

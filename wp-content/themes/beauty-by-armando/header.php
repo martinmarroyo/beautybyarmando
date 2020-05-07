@@ -21,27 +21,29 @@
 
 
 <body <?php body_class( elemento_body_site_layout() ); ?> data-container="<?php echo elemento_site_container();?>">
-<!--Mobile view ham menu-->
-<div class="mobile-menu">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-<!--Ends-->
 
-<div class="body-wrapp <?php echo elemento_header_type();?>">
+<div class="<?php if (is_front_page() || is_home()) {echo "front-page-container";} else {echo 'body-wrapp ' . elemento_header_type();}?>">
 
     <!--Header Component-->
     <header id="siteHeader" class="jr-site-header pd-a-15 <?php  elemento_header_class(); ?>">
-        <div class="<?php echo elemento_site_container();?>">
+      <!-- Change the class name if we're on the front page to keep styling separate... corrects black line across top of header section -->
+        <div class="<?php if (is_front_page() || is_home()) {echo "front-page-container";} else {echo elemento_site_container();}?>">
+          <!--Mobile view ham menu-->
+          <div class="mobile-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <!--Ends-->
             <div class="row align-flex-item-center full-width">
                 <div class="col-md-3">
                     <div class="logo-holder">
                         <?php
-                        the_custom_logo();
-                        if( display_header_text() ):
+                        //the_custom_logo();
+                        // Only show logo in header if it is not the landing page
+                       if( ! (is_front_page() || is_home()) ):
                         ?>
-                            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                      <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
                         <?php
                             $description = get_bloginfo( 'description', 'display' );
                             if ( $description || is_customize_preview() ) : ?>
@@ -54,10 +56,11 @@
                 </div>
             </div>
         </div>
-        <div id="menu-pages" class="col-md-9 text-align-right">
+        <div id=<?php if (is_front_page() || is_home()){echo "menu-home";}else {echo "menu-pages";}?> class="col-md-9 text-align-right">
         <?php
 
         ?>
+
             <nav class="menu-main">
             <?php
                         wp_nav_menu( array(
@@ -69,6 +72,16 @@
                         ) );
 
             ?>
+
             </nav>
         </div>
     </header>
+    <?php
+    # Load the styling for the landing page if we are there
+        if (is_home() || is_front_page()){ ?>
+          <div class="landing_bg">
+            <div class="brand_name">
+              <h1><span><strong>Beauty by</strong></span> <em>Armando</em></h1>
+            </div>
+          </div>
+      <?php  } ?>

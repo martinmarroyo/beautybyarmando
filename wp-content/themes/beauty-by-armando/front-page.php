@@ -1,42 +1,39 @@
-
 <?php
 /**
- * The template for displaying the home page
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package Elemento
  */
 
- ?>
+get_header();
+/*
+$sidebar = elemento_page_sidebar_pos();
+if ( class_exists( 'WooCommerce' ) ) {
+  if( is_woocommerce() ){
+    $sidebar = elemento_shop_sidebar_pos();
+  }
+}
+
+if( ! $sidebar ){
+  $row =  'aGrid';
+}else if($sidebar=='left'){
+  $row = 'col_2-30-70';
+}else{
+  $row = 'col_2-70-30';
+}
+*/
+?>
 
 
-<body>
-<?php get_template_part( 'template-parts/header', 'frontpage' ); ?>
-<!-- Front page image -->
-  <div class="landing_bg">
-    <div id="menu" class="frontpage-menu">
-    <?php
 
-    ?>
-        <nav class="menu-main">
-        <?php
-                    wp_nav_menu( array(
-                        'theme_location' => 'primary-menu',
-                        'menu_id'        => 'primary-menu',
-                        'menu_class'     => 'floted-li clearfix d-i-b',
-                         'walker'        => '',
-                        'fallback_cb'    => 'wp_page_menu',
-                    ) );
+<?php
 
-        ?>
-        </nav>
-    </div>
-    <div class="brand_name">
-      <h1><span><strong>Beauty by</strong></span> <em>Armando</em></h1>
-    </div>
-  </div>
-
-  <?php get_footer(); ?>
-
-</body>
+get_footer();
+?>
