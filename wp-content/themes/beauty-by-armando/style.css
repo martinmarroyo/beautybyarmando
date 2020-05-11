@@ -83,6 +83,10 @@ nav.menu-main ul li .sub-menu>li>a{
   right:-25%;
 }
 
+/* Page Title Styling */
+h1.page-title{
+  color:white;
+}
 
 /************************ PORTFOLIO PAGE **************************************/
 /** Removes redundant display of feature image in portfolio **/
